@@ -1,3 +1,4 @@
+// Tom Haverford
 var sandwichReplacements = ['sammies', 'sandoozles', 'Adam Sandlers'];
 var sandwichReplacementsSingular = ['sammies', 'sandoozles', 'Adam Sandlers'];
 var numSandwiches = sandwichReplacements.length;
@@ -11,6 +12,9 @@ findAndReplace(/\bnoodles\b/ig, 'long-ass rice', document);
 findAndReplace(/\bcakes\b/ig, 'big ol\' cookies', document);
 findAndReplace(/\bchicken parm\b/ig, 'chicky chicky parm parm', document);
 findAndReplace(/\bforks\b/ig, 'food rakes', document);
+
+// Leslie Knope
+findAndReplace(/\bbathroom\b/ig, 'whiz palace', document);
 
 function findAndReplace(a, b, el) {
   if (!el) el = document.body;
